@@ -66,5 +66,8 @@ BruteForce BT = new BruteForce((a) => {string hash= SHA512(a);return hash == s;}
 BruteForce BT = new BruteForce((a) => {string hash= SHA512(a);return hash == s;}, "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToLower(),BruteForce.AttackType.MultiThreads,2000);  // 0h:01m:00s, ms:329 
 
 BruteForce BT = new BruteForce((a) => {string hash= SHA512(a);return hash == s;}, "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToLower(),BruteForce.AttackType.MultiThreads,-1);  // 0h:00m:23s, ms:112
+
+BT.OnTrueEvent += (a) => { System.Diagnostics.Debug.WriteLine("Yes Found:" + a); };
+BT.Work();
 ```
 
