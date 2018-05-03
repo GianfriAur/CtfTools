@@ -4,3 +4,9 @@ D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFrame
 D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFramework\obj\Debug\DictionatyAttackFramework.csproj.CoreCompileInputs.cache
 D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFramework\obj\Debug\DictionatyAttackFramework.dll
 D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFramework\obj\Debug\DictionatyAttackFramework.pdb
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework\bin\Debug\DictionatyAttackFramework.dll
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework\bin\Debug\DictionatyAttackFramework.pdb
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework\obj\Debug\DictionatyAttackFramework.csprojResolveAssemblyReference.cache
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework\obj\Debug\DictionatyAttackFramework.csproj.CoreCompileInputs.cache
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework\obj\Debug\DictionatyAttackFramework.dll
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework\obj\Debug\DictionatyAttackFramework.pdb

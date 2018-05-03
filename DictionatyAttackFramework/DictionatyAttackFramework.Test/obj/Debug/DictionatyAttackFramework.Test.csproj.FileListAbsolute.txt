@@ -10,3 +10,14 @@ D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFrame
 D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFramework.Test\obj\Debug\DictionatyAttackFramework.Test.exe
 D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFramework.Test\obj\Debug\DictionatyAttackFramework.Test.pdb
 D:\cyberchallenge\bitbuket\Tools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\20k.txt
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\20k.txt
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\DictionatyAttackFramework.Test.exe.config
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\DictionatyAttackFramework.Test.exe
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\DictionatyAttackFramework.Test.pdb
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\DictionatyAttackFramework.dll
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\DictionatyAttackFramework.pdb
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\bin\Debug\WebsiteKeyWordsDump.pdb
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\obj\Debug\DictionatyAttackFramework.Test.csprojResolveAssemblyReference.cache
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\obj\Debug\DictionatyAttackFramework.Test.csproj.CoreCompileInputs.cache
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\obj\Debug\DictionatyAttackFramework.Test.exe
+D:\GitHub\CtfTools\DictionatyAttackFramework\DictionatyAttackFramework.Test\obj\Debug\DictionatyAttackFramework.Test.pdb
