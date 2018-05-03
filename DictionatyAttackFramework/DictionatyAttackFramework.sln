@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionatyAttackFramework", "DictionatyAttackFramework\DictionatyAttackFramework.csproj", "{24EA913B-7779-4C4D-81B5-94CD46572DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionatyAttackFramework.Test", "DictionatyAttackFramework.Test\DictionatyAttackFramework.Test.csproj", "{066F8C72-FE8F-4472-9B21-AF59DE7F88F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24EA913B-7779-4C4D-81B5-94CD46572DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EA913B-7779-4C4D-81B5-94CD46572DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EA913B-7779-4C4D-81B5-94CD46572DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EA913B-7779-4C4D-81B5-94CD46572DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066F8C72-FE8F-4472-9B21-AF59DE7F88F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066F8C72-FE8F-4472-9B21-AF59DE7F88F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066F8C72-FE8F-4472-9B21-AF59DE7F88F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066F8C72-FE8F-4472-9B21-AF59DE7F88F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFC2AAA5-86EF-473E-8B94-0D0AB98ECA81}
+	EndGlobalSection
+EndGlobal

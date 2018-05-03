@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BruteForceFramework.Test.exe" version="1.0.0.0" publicKeyToken="7cbc1f7371b27311" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BruteForceFramework.Test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BruteForceFramework.Test.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto di Controllo dell'account utente
+          Per modificare il livello di Controllo dell'account utente Windows sostituire il 
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la compatibilità 
+         con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BruteForceFramework.dll" size="9216">
+      <assemblyIdentity name="BruteForceFramework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xwKlrm2QPvDGomKwy/i0AQ9/lNEMIE72WbKyNLrvifQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BruteForceFramework.Test.exe" size="7144">
+      <assemblyIdentity name="BruteForceFramework.Test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Vo7wxaq9tPv1a2/jJc/gcIxEI4m7Kzulq8dyYWEXHq4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BruteForceFramework.Test.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CA4SC33\Utente" issuerKeyHash="7e5f2d4cd621e6a17a5021dd3f807be961a9d4c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iMEQ0S+AR8ZWJXA7FT+ozA1ENMJeibBqVlT3V6tTzxU=</DigestValue></Reference></SignedInfo><SignatureValue>D3IiEyn7YdkgQLw8GtvtOoqF/MmHw1G/nql9Su26ONsn6U1NmN2wEg6TMMMwnYWfrL76H8YG8r7rp6O7DBDAtmnjoEG+GqWQcMnTjBD8G9GM+qIEjZ2VVhiI08fEeg48G7r1C9eicVeo6HtIwZWMjf5c3dP3few0TOhUjo0oM+U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>txquVkn0vCVzwH2uxBbR0XFTvlYLRJ5iNuuApxFNow8Yp5Vro0SBioqasJmxBc7gWarE3NluhWCiLISHtyBX1Is/MFHJADy75j+IDej0FMEw8pE+e9xPUgXKQ7OmBLwFuKZTbHdEFi+Zvl4PX6dCIWzRj7AYID6dczfoSRF7DG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="15cf53ab57f754566ab0895ec234440dcca83f153b702556c647802fd110c188" Description="" Url=""><as:assemblyIdentity name="BruteForceFramework.Test.exe" version="1.0.0.0" publicKeyToken="7cbc1f7371b27311" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CA4SC33\Utente</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>u14XItHTixVdgfzRUw/+ASgUsf0XHyX4LD7OveEUf7w=</DigestValue></Reference></SignedInfo><SignatureValue>R39khSblLjNg7La7YBPy7tzJTytWIIDPDrTmQ0YZNnKiK8P/DmPLw9HEFRF5ZSWeOsy7Xa4bQcCp2lR3xpz1ukgg4rfK0SDvfgdmW9aNm8GKlBYOnkLLQtcE/LX+O+e416WGzRUi4wwIjsck5QRs5oi/xh9+mVtV+S05VJOdJy0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>txquVkn0vCVzwH2uxBbR0XFTvlYLRJ5iNuuApxFNow8Yp5Vro0SBioqasJmxBc7gWarE3NluhWCiLISHtyBX1Is/MFHJADy75j+IDej0FMEw8pE+e9xPUgXKQ7OmBLwFuKZTbHdEFi+Zvl4PX6dCIWzRj7AYID6dczfoSRF7DG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQF458LGqmaqVM11UD8d3VgzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEMAQQA0AFMAQwAzADMAXABVAHQAZQBuAHQAZTAeFw0xODA0MjMxMjMxNDZaFw0xOTA0MjMxODMxNDZaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AQwBBADQAUwBDADMAMwBcAFUAdABlAG4AdABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3Gq5WSfS8JXPAfa7EFtHRcVO+VgtEnmI264CnEU2jDxinlWujRIGKipqwmbEFzuBZqsTc2W6FYKIshIe3IFfUiz8wUckAPLvmP4gN6PQUwTDykT573E9SBcpDs6YEvAW4plNsd0QWL5m+Xg9fp0IhbNGPsBggPp1zN+hJEXsMbQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABO0MYRG84+l7ScRILKCYoAqZwLDgEfUSbKQeycn5cQUebHWg+LZWJC0K1Pa/l46LKKrUDI7JjsLtY1MOq8ysC1ZmAn2NmNVHqIDhsT78c5nFXh+XVlunx987GRPFTr5/NEW8i1iaqBSdQah/5A0GA+ozFX6FeYW3O6VH5/BDVXL</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
